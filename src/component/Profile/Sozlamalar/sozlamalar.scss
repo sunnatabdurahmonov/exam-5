@@ -1,0 +1,27 @@
+.log-out-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(50px);
+    min-height: 28vh;
+}
+.log-out{
+    border: 1px solid #41D481;
+    background-color:#41D481;
+    color: white;
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.log-out:hover{
+    background-color: white;
+    color: #41D481;
+    border: 1px solid #41D481;
+}
+.log-out:active{
+    background-color: #41D481;
+    color: white;
+    opacity: 0.6;
+}

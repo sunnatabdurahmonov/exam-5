@@ -1,0 +1,62 @@
+header{
+    box-shadow: -3px 4px 19px 3px rgba(34, 60, 80, 0.34);
+    -moz-box-shadow: -3px 4px 19px 3px rgba(34, 60, 80, 0.34);
+    box-shadow: -3px 4px 19px 3px rgba(34, 60, 80, 0.34);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+     width: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     color: #fff;
+     z-index: 4;
+     text-align: left;
+     font-size: 14px;
+     line-height: 1.29;
+     background-color: white;
+    transition: .5s ease-in-out;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kiwi-img-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+}
+.kiwi-list{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    list-style: none;
+}
+.kiwi-img-title{
+    max-width: 152px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+}
+.kiwi-link{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.kiwi-link2{
+    color: #4E72CA;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.profile-token{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+}
+.profile-token>p{
+    color: #787993;
+}

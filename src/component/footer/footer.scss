@@ -1,0 +1,38 @@
+footer{
+    background-color: #33383C;
+    // position: relative;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    color: #fff;
+    z-index: 100;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-top: auto;
+}
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.kiwi-gray{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.kiwiGray-title{
+    color: white !important;
+}
+.item-1{
+    width: 307px;
+    font-size: 16px;
+    color: #98A4B7;
+    font-weight: 500;
+}
+.footer-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

@@ -1,0 +1,1 @@
+export {AllAccordion } from './AllAccordion'

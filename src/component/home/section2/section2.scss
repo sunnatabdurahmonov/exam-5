@@ -1,0 +1,24 @@
+
+.card-menu{
+    max-width: 262px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.time{
+    color: #4A4A4A;
+    font-size: 14px;
+    font-weight: 500;
+}
+.img{
+    max-width: 260px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-link{
+    text-decoration: none;
+    color: black;
+}

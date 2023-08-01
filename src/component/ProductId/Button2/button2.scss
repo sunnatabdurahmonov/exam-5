@@ -1,0 +1,27 @@
+.btn3{
+    padding: 15px;
+    height: auto;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+
+    &.blue{
+        background-color: #304FFF;
+        border: 1px solid #304FFF;
+    }
+    &.blue:hover{
+        background-color: white;
+        color: #304FFF;
+        border: 1px solid #304FFF;
+    }
+    &.blue-oppasity{
+        background-color: #4E72CA;
+        border: 1px solid #4E72CA;
+    }
+
+    &.blue-oppasity:hover{
+        background-color: white;
+        color: #4E72CA;
+        border: 1px solid #4E72CA;
+    }
+}

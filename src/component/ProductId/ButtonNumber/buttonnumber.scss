@@ -1,0 +1,32 @@
+.numberBtn{
+    width: 331px;
+}
+.telBtn{
+    background-color: #65E99F;
+    border: none;
+    padding: 15px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-right: 30px;
+    color:  #000000;
+    cursor: pointer;
+}
+.telBtn2{
+    background-color: #41D481;
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    position: relative;
+    right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-product{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.zuxxi{
+    color: green;
+}

@@ -1,0 +1,26 @@
+.btn1{
+    background-color: #212121;
+    max-width: 177px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 12px;
+    column-gap: 10px;
+}
+.btn-img{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.btn-text>p{
+    font-size: 10px;
+    color: white;
+}
+.btn-text>h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}

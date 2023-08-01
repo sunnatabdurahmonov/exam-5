@@ -1,0 +1,33 @@
+.profil-container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.temirov{
+    color:  #414D6A;
+    padding-top: 30px;
+}
+.profil-link-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    padding-top: 20px;
+}
+.profil-link{
+    text-decoration: none;
+    color:  #9B9B9B;
+    font-size: 18px;
+    font-weight: 600;
+}
+.profil-text-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-profil{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+.btn-profil>p{
+    color: blue;
+}

@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    border-bottom: none;
+    max-width: 536px;
+    width: 100%;
+  }
+  .grid1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(167, 167, 167, 0.8);
+    padding: 15px 60px;
+    color: #444444;
+    max-width: 250px;
+  }
+  .grid1>p{
+    font-size: 15px;
+  }
+  .blue2{
+    color: #4E72CA;
+  }
+  .blue-link{
+    width: 536px;
+    padding-left: 20px;
+  }
+  .info{
+    padding-left: 20px;
+    color: #444444;
+    margin-top: 20px;
+  }

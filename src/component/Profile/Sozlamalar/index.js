@@ -1,0 +1,1 @@
+export {Sozlamalar} from './Sozlamalar'

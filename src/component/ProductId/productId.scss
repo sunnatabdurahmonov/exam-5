@@ -1,0 +1,79 @@
+.product-container{
+    margin-top: 100px;
+}
+.productId{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+}
+.product-title{
+    color: #414D6A;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.product-text{
+    margin-top: 30px;
+}
+.product-text>span{
+    padding-left: 20px;
+    color: #787993;
+    font-size: 15px;
+}
+.product-img{
+    padding-top: 70px;
+    width: 450px;
+    height: 450px;
+}
+.p-text{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    padding-top:100px;
+    color: #414D6A;
+}
+.p-text>p{
+    margin: 0;
+    padding: 0;
+}
+.price{
+    color: #444444;
+    font-size: 48px;
+    padding-top: 20px;
+}
+.toshkent{
+    color: #4E72CA;
+    padding-top: 20px;
+}
+.zuxriddin{
+    padding-top: 10px;
+}
+.bt3-menu{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+}
+.grid-menu{
+    margin-top: 100px;
+}
+.description{
+    padding-left: 20px;
+    color: #414D6A;
+    margin-top: 20px;
+}
+.kurildi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.kurildi>p{
+    padding-left: 20px;
+}
+.danger{
+    color: red;
+}
+.render{
+    margin-top: 100px;
+}
