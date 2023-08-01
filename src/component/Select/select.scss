@@ -13,6 +13,8 @@
 .select-1{
     border: none;
     padding-left: 40px !important;
+    outline: none;
+    cursor: pointer;
 }
 .select-title{
     width: 300px;
@@ -21,16 +23,23 @@
 .select-2{
     border: none;
     padding-right: 20px !important;
+    cursor: pointer;
 }
 .select-btn{
     width: 78px;
     padding: 12px;
     background-color: #19D476;
     color: white;
-    border: none;
+    border: 1px solid #19D476;
     border-radius: 100px;
     position: relative;
     right: 70px;
+    cursor: pointer;
+}
+.select-btn:hover{
+    background-color: white;
+    color: #19D476;
+    border: 1px solid #19D476;
 }
 .select-flex{
     display: flex;
@@ -41,11 +50,23 @@
     background-color: #11B463 !important;
     padding: 15px !important;
     left: 17px !important;
+    border: 1px solid  #11B463 !important;
+}
+.plus-icon:hover{
+    background-color: white !important;
+    color: #11B463 !important;
+    border: 1px solid  #11B463 !important;
+
 }
 .plus{
     background-color: #19D476 !important;
     color: white !important;
     padding: 15px !important;
     padding-right: 15px !important;
-
+    border: 1px solid  #19D476 !important;
+}
+.plus:hover{
+    background-color: white !important;
+    color: #19D476 !important;
+    border: 1px solid  #19D476 !important;
 }

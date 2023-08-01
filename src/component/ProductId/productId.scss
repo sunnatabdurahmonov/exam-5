@@ -19,6 +19,7 @@
     padding-left: 20px;
     color: #787993;
     font-size: 15px;
+    cursor: pointer;
 }
 .product-img{
     padding-top: 70px;
@@ -44,6 +45,7 @@
 .toshkent{
     color: #4E72CA;
     padding-top: 20px;
+    cursor: pointer;
 }
 .zuxriddin{
     padding-top: 10px;
@@ -73,7 +75,16 @@
 }
 .danger{
     color: red;
+    cursor: pointer;
 }
 .render{
     margin-top: 100px;
+}
+.productId-span:hover{
+    color: black;   
+}
+.jalba{
+    position: relative;
+    left: 1100px;
+    top: -17px;
 }

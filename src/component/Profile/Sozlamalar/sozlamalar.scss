@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     transform: translateY(50px);
-    min-height: 28vh;
+    display: flex;
+    flex-direction: column;
 }
 .log-out{
     border: 1px solid #41D481;

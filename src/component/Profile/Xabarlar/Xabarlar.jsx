@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Xabarlar/xabarlar.scss'
+
 
 
 export const Xabarlar = () => {

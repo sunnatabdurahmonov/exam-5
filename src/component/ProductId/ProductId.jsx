@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useCallback, useContext, useEffect, useState } from 'react'
 import { baseUrl } from '../../BaseUrl'
 import { SectionContext } from '../../context/Contex'
 import { useParams } from 'react-router-dom'
@@ -11,12 +11,19 @@ import { Grid } from './Grid'
 import { Render } from './Render'
 import { Footer } from '../footer'
 
+
 export const ProductId = () => {
    const [product,setProduct] = useState()
    const {loading,setLoading} = useContext(SectionContext)
    const {productId} = useParams()
+   const [count,setCount] = useState(0)
 
+   const handleCount = (e) => {
+      e.preventDefault()
+      setCount(count+1)
+   }
     useEffect(() => {
+
        setLoading(true)
        const  getFunction = async () => {
        try {
@@ -55,11 +62,9 @@ export const ProductId = () => {
           <p className='description'>{res.data?.description}</p>
           <div className="kurildi">
             <p>Просмотры:10958</p>
-            <p className='danger'>Пожаловатся</p>
           </div>
            </div>
            </div>
-           
         )
            setProduct(result)
             setLoading(false)
@@ -79,17 +84,20 @@ export const ProductId = () => {
         <div className="product-container">
             <Select/>
             <div className="product-text">
-                <span>Объявления  /</span>
-                <span>Ташкент Недвижимость  /</span>
-                <span>Ташкент Квартиры  /</span>
-                <span>Ташкент  Продажа  /</span>
-                <span>Новостройки Ташкент</span>
+                <span className='productId-span'>Объявления/</span>
+                <span className='productId-span'>Ташкент Недвижимость  /</span>
+                <span className='productId-span'>Ташкент Квартиры  /</span>
+                <span className='productId-span'>Ташкент  Продажа  /</span>
+                <span className='productId-span'>Новостройки Ташкент</span>
             </div>
          <div className="product-menu">
             <div className="product-list">
             {product}
             </div>
          </div>
+        <div className="jalba">
+        <p onClick={handleCount} className='danger'>Пожаловатся  <span>{count}</span></p>
+        </div>
      <div className="render">
     <Render/>
      </div>

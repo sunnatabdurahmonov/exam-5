@@ -7,6 +7,7 @@
     border-top-right-radius: 100px;
     border-left: none;
     padding-left: 20px;
+    cursor: pointer;
 }
 .Рекламировать{
     width: 185px;
@@ -18,7 +19,10 @@
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     border-left: none;
-}.table{
+    cursor: pointer;
+}
+
+.table{
     margin-top: 30px;
 }
 .icons{
@@ -29,6 +33,7 @@
     position: relative;
     left: 13px;
     top: 1px;
+    cursor: pointer;
 }
 .icons-blue{
     border: 1px solid blue;
@@ -38,7 +43,15 @@
     position: relative;
     left: 25px;
     top: 1px;
+    cursor: pointer;
+}
+.icons-blue:hover{
+    background-color: white;
+    border: 1px solid blue;
 }
 .tel{
     padding-top: 30px;
+}
+.table-img{
+    cursor: pointer;
 }

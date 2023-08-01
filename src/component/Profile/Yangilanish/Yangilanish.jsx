@@ -52,7 +52,7 @@ const columns = [
     <ArrowUpOutlined className='icons-blue'/>
     <button className='Рекламировать'>  Рекламировать</button>
     </div>
-        <img src={button} alt="logo" />
+        <img className='table-img' src={button} alt="logo" />
       </Space>
     ),
   },

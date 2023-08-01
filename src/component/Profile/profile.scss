@@ -1,6 +1,7 @@
 .profil-container{
     padding-top: 150px;
     padding-bottom: 150px;
+    min-height: calc(100vh - 100px);
 }
 .temirov{
     color:  #414D6A;
@@ -30,4 +31,8 @@
 }
 .btn-profil>p{
     color: blue;
+}
+.icons:hover{
+    background-color: white;
+    border: 1px solid #11B463;
 }

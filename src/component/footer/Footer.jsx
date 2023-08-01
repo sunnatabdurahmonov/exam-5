@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../footer/footer.scss'
 import kiwiGray from '../../assest/kiwiGray.svg'
 import {Button1} from '../button/Button1'
@@ -8,6 +8,22 @@ import { NavLink } from 'react-router-dom'
 
 
 export const Footer = () => {
+//   const [wHeigh , setWHeigh] = useState(0)
+
+//   useEffect(() => {
+//     const handleScroll = (e) => {
+//         const footer = document.querySelector('footer')
+//         const foo = (e.target.documentElement.scrollTop);
+//         setWHeigh(foo)
+//         if (foo < 150) {
+//           footer.style.bottom = '-200px';
+//         }else{
+//           footer.style.bottom='0'
+//         }
+//     };
+
+// window.addEventListener("scroll", handleScroll);
+// }, [wHeigh]);
     
   return (
     <div>
